@@ -1,6 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import bridge from "@vkontakte/vk-bridge";
+import {AdaptivityProvider, ConfigProvider } from '@vkontakte/vkui';
 import App from "./App";
 
 // Init VK Mini App
